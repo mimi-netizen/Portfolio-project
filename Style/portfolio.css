@@ -80,6 +80,19 @@ p {
   padding: 30px 30px;
 }
 
+.about-page {
+  background-image: url("https://img.freepik.com/free-vector/version-control-concept-illustration_114360-1566.jpg?size=626&ext=jpg&ga=GA1.1.1209966770.1702114678&semt=ais");
+  background-repeat: no-repeat;
+}
+
+.about-section {
+  padding: 100px 20px;
+}
+
+.about-section h1 {
+  font-size: 34px;
+}
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -104,5 +117,13 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-page {
+    background-image: none;
+    margin: 0px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
