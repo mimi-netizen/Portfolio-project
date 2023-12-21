@@ -25,21 +25,27 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 56px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 34px;
 }
 
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .hero {
-  background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 150px 20px;
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -58,5 +64,45 @@ p {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 20px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
+}
+
+.project-description {
+  padding: 30px 30px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+  }
+  .diet-blog {
+    margin-top: 30px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .hero h2 {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 10px;
+    line-height: 17px;
+    padding: 5px 10px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
