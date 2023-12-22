@@ -40,6 +40,13 @@ p {
   line-height: 1.5;
 }
 
+h3 {
+  font-size: 20px;
+}
+
+.contact-paragraph {
+}
+
 .hero {
   text-align: center;
   padding: 150px 20px;
@@ -96,6 +103,10 @@ p {
 
 .page-heading {
   color: #fe4f5c;
+}
+
+.contact-heading {
+  color: #753428;
 }
 
 @media (max-width: 960px) {
