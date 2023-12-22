@@ -27,6 +27,7 @@ h6 {
 h1 {
   font-size: 56px;
   line-height: 1.5;
+  color: #fe3a75;
 }
 
 h2 {
@@ -91,6 +92,10 @@ p {
 
 .about-section h1 {
   font-size: 34px;
+}
+
+.page-heading {
+  color: #fe4f5c;
 }
 
 @media (max-width: 960px) {
